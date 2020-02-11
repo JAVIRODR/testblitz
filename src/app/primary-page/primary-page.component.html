@@ -1,0 +1,27 @@
+<body>
+  <h1>Diet Coke</h1>
+  <h3>Views last 24hrs:</h3>
+  <img src="/src/assets/photos/dietCokeCan.jpg" alt="Diet Coke logo" width="400px">
+  <!--Need to change this path to something better when launching actual site-->
+  <p>
+    <a href="https://en.wikipedia.org/wiki/Diet_Coke">Diet Coke</a>, {{this.pageData}}
+  </p>
+  <h4>
+    Comments:
+  </h4>
+  <section id="comments">
+  </section>
+  <section>
+    <form id="cmtSubmiss" (ngSubmit)=postComment()>
+      <div class="input-group">
+          <input name="newComment" type="text" class="form-control" [(ngModel)]="newComment"
+            aria-label="Text input with segmented dropdown button">
+        <div class="input-group-append">
+            <button type="submit" class="btn btn-outline-secondary">Post</button>
+        </div>
+      </div>
+    </form>
+  </section>
+</body>
+
+<!--https://www.tutorialspoint.com/angularjs/angularjs_first_application.htm-->

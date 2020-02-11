@@ -1,0 +1,49 @@
+@import '..\node_modules\bootstrap\dist\css\bootstrap.css';
+h1 {
+	font-family: 'Sarabun', sans-serif;
+	font-size: 250%;
+	margin-bottom: 10px;
+}
+form {
+	width: 625px;
+}
+form#login {
+	padding: 20px;
+	width:625px;
+	border-top: 2px solid black;
+}
+label {
+	margin: auto;
+	padding: 10px;
+	display: inline-block;
+	font-family: 'Lato', sans-serif;
+}
+input {
+	margin-left: 10px;
+	display: block;
+	width: 200px;
+}
+button {
+	margin-left: 10px;
+	margin-top: 30px;
+}
+button#newuserbutton {
+	margin: auto;
+}
+form#newUser {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 10px;
+	padding-left: 20px;
+}
+button#forgotpassword {
+	position: relative;
+	left: 35px;
+}
+form#forgotpasswordform {
+	margin-top: 50px;
+}
+img {
+	width: 35%;
+	margin: auto;
+}

@@ -1,0 +1,21 @@
+<link href="https://fonts.googleapis.com/css?family=Sarabun" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<div>
+  <h1>
+    Welcome, please create an account.
+  </h1>
+  <form name="newaccount" (ngSubmit)=createAccount()>
+      <img src="src/assets/photos/wellWithBucketHeart.jpg" alt="WEL with a Heart Bucket"/>
+      <label for="fullName">Full Name:</label>
+        <input type="text" name="fullName" id="fullName" [(ngModel)]="fullName" required/>
+      <label for="email">Enter Email Address:</label>
+        <input type="text" name="email" id="email" [(ngModel)]="email" required/>
+      <label for="username">Create a Username:</label>
+        <input type="text" name="username" id="username" [(ngModel)]="username" required/>
+      <label for="password">Create a Password:</label>
+        <input type="password" name="password" id="password" [(ngModel)]="password" required/>
+      <label for="passwordreentry">Re-enter Password:</label>
+        <input type="password" name="passwordreentry" id="passwordreentry" [(ngModel)]="reentrypassword" required/>
+      <button type="submit" value="Create Account">Create Account</button>
+  </form>
+</div>

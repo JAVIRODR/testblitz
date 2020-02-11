@@ -1,0 +1,33 @@
+<header>
+  <h1>WELer Profile</h1>
+</header>
+<main>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <section id="displayusername">
+          <p>Username:</p><p>{{this.username}}</p><br>
+          <p>Email:</p><p>{{this.email}}</p>
+        </section>
+        <section id="userinfochanges">
+          <p><a type="button" class="btn btn-outline-primary" (click)="resetEmail()">Change Email</a></p><br>
+          <p><a type="button" class="btn btn-outline-primary">Change Password</a></p><br>
+          <p><a type="button" class="btn btn-outline-primary" (click)="signout()">Sign Out</a></p>
+        </section>
+      </div>
+      <div class="col">
+        <div class="btn-group-vertical">
+          **This area will display user pages**
+            <button type="button" class="btn btn-secondary">{{this.page1}}</button>
+            <button type="button" class="btn btn-secondary">{{this.page2}}</button>
+            <button type="button" class="btn btn-secondary">{{this.page3}}</button>
+            <button type="button" class="btn btn-secondary">{{this.page1}}</button>
+            <button type="button" class="btn btn-secondary">{{this.page1}}</button>
+            <button type="button" class="btn btn-secondary">{{this.page1}}</button>
+            <button type="button" class="btn btn-secondary">{{this.page1}}</button>
+            <button type="button" class="btn btn-secondary">{{this.page1}}</button>
+            <button type="button" class="btn btn-secondary">{{this.page1}}</button>
+        </div></div>
+      </div>
+    </div>
+</main>

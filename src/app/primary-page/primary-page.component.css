@@ -1,0 +1,32 @@
+h1 {
+    font-style: Trebuchet;
+    text-decoration-color: rgb(161, 161, 161);
+    text-shadow: 1px 1px 3px red;
+}
+img {
+    display: block;
+    margin: auto;
+
+}
+h4 { 
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    border-bottom: 2px solid black;
+}
+section > p {
+    border: 1px solid #4ddbff;
+    padding: 20px;
+    box-shadow: 6px 6px 5px 3px #008fb3;
+    margin: 15px;
+}
+section > form {
+    margin: 15px;
+}
+section > textarea {
+    padding: 2px;
+    margin: 15px;
+}
+section > button {
+    margin: 15px;
+}

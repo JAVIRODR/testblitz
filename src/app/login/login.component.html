@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<link href="https://fonts.googleapis.com/css?family=Sarabun" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<h1>
+		Please login:
+	</h1>
+			<form>
+				<img class="float-right" src="src/assets/photos/wellWithBucketHeart.jpg" alt="WEL with a Heart Bucket"/>
+					<label for="email">Email:</label>
+						<input type="text" name="email" id="email" [(ngModel)]="email" required />
+					<label for="password">Password:</label>
+						<input type="password" name="password" id="password" [(ngModel)]="password" required />
+					<button (click)="mainLogin()" value="Login">Login</button>
+					<button id="forgotpassword" (click)="forgotPassword()">Forgot Password?</button>
+			
+			<form id="newUser" (ngSubmit)=createAccount()>
+				<button type="submit" id="newuserbutton">New User?  Create an Account!</button>
+			</form>
+			</form>
+</html>
